@@ -1,3 +1,5 @@
+Live Link: https://todo-app-ecru-eta-91.vercel.app/
+
 # MERN Todo App
 
 A full-stack Todo Management Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
@@ -78,7 +80,13 @@ create .env file in Backend folder
 JWT_SECRET=TODO_APP
 MONGO_URI=mongodb://localhost:27017/todoapp
 ```
-also uncomment baseURL: "http://localhost:3000", this line in frontend/src/api/api.js
+
+In frontend/src/api/api.js, uncomment this line for local development:
+// baseURL: "http://localhost:3000",  // Uncomment this line
+
+In backend app.js, uncomment this line:
+// app.use(cors({origin: 'http://localhost:5173', credentials: true,}))
+
 
 Frontend will run on http://localhost:5173
 Backend will run on http://localhost:3000
