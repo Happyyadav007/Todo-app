@@ -63,6 +63,10 @@ cd backend
 npm install
 npm run dev
 
+create .env file in Backend folder
+JWT_SECRET=TODO_APP
+MONGO_URI=mongodb://localhost:27017/todoapp
+
 
 Frontend setup
 
