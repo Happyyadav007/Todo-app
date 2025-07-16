@@ -14,7 +14,6 @@ app.use(cors({
     'http://localhost:5173',
     'https://todo-app-ecru-eta-91.vercel.app' 
   ],
-  credentials: true,
 }));
 
 app.get('/', (req, res) => {
