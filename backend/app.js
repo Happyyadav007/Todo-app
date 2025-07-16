@@ -8,7 +8,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(cors({origin: 'http://localhost:5173', credentials: true,}))
+// app.use(cors({origin: 'http://localhost:5173', credentials: true,}))
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://todo-app-ecru-eta-91.vercel.app/' 
+  ],
+  credentials: true,
+}));
+
 app.get('/', (req, res) => {
   res.send('Hello, World');
 });
