@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://todo-app-ecru-eta-91.vercel.app/' 
+    'https://todo-app-ecru-eta-91.vercel.app' 
   ],
   credentials: true,
 }));
