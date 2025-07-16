@@ -1,4 +1,4 @@
-Live Link: https://todo-app-ecru-eta-91.vercel.app/
+**🚀Live Link:** https://todo-app-ecru-eta-91.vercel.app/
 
 # MERN Todo App
 
@@ -40,8 +40,7 @@ This app supports user authentication, role-based access (admin/user), and a das
 ```bash
 Todo-app/
 ├── frontend/ # React frontend
-│ └── todo
-          └──src...
+│ └── src...
 ├── backend/
 │ ├── controllers/
 │ ├── middleware/
@@ -90,6 +89,8 @@ In backend app.js, uncomment this line:
 
 Frontend will run on http://localhost:5173
 Backend will run on http://localhost:3000
+
+**🚀Live Link:** https://todo-app-ecru-eta-91.vercel.app/
 
 🔐 Admin Access
 After login, if the user role is admin, a Dashboard button will appear on the TodoManagement page.
