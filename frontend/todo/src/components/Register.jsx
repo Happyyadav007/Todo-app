@@ -47,7 +47,7 @@ function Register() {
           setFormData({ userName: "", email: "", password: "", confirmPassword: "", role: "user" });
           setError("User created successfully!");
         } else {
-          navigate('/login');
+          navigate('/');
         }
       }
     } catch (err) {
