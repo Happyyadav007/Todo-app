@@ -221,7 +221,7 @@ function Register() {
             <div className="mt-4 sm:mt-6 text-center text-xs sm:text-sm">
               <p className="text-gray-600">
                 Already have an account?{' '}
-                <a href="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
+                <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">
                   Sign in
                 </a>
               </p>
