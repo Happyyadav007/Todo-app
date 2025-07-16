@@ -35,6 +35,7 @@ This app supports user authentication, role-based access (admin/user), and a das
 ---
 
 ## 📦 Folder Structure
+```bash
 Todo-app/
 ├── frontend/ # React frontend
 │ └── todo
@@ -45,6 +46,7 @@ Todo-app/
 │ ├── models/
 │ └── routes/
 └── README.md
+```
 
 
 ---
@@ -63,10 +65,6 @@ cd backend
 npm install
 npm run dev
 
-create .env file in Backend folder
-JWT_SECRET=TODO_APP
-MONGO_URI=mongodb://localhost:27017/todoapp
-
 
 Frontend setup
 
@@ -75,6 +73,12 @@ npm install
 npm run dev
 
 ```
+create .env file in Backend folder
+```bash
+JWT_SECRET=TODO_APP
+MONGO_URI=mongodb://localhost:27017/todoapp
+```
+also uncomment baseURL: "http://localhost:3000", this line in frontend/src/api/api.js
 
 Frontend will run on http://localhost:5173
 Backend will run on http://localhost:3000
