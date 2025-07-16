@@ -58,17 +58,19 @@ git clone https://github.com/Happyyadav007/Todo-app.git
 cd Todo-app
 
 Backend setup
-```bash
+
 cd backend
 npm install
 npm run dev
 
 
 Frontend setup
-```bash
+
 cd frontend
 npm install
 npm run dev
+
+```
 
 Frontend will run on http://localhost:5173
 Backend will run on http://localhost:3000
